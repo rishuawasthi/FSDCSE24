@@ -57,7 +57,7 @@
 
 function login(error,msg){
     if(error){
-        console.log("Error is  "+error);
+        console.log("Error is"+error);
     }
     else
     {
