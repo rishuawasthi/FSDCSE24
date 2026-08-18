@@ -54,23 +54,34 @@
 // msgWithSum(sum,"Rahul");
 
 
+//login validation
+// function login(error,msg){
+//     if(error){
+//         console.log("Error is  "+error);
+//     }
+//     else
+//     {
+//         console.log(msg);
+//     }
+// }
 
-function login(error,msg){
-    if(error){
-        console.log("Error is  "+error);
-    }
-    else
-    {
-        console.log(msg);
-    }
-}
+// function loginHandler(username,password,clbk){
+//     if(username=="rishu_5851" && password=="12345"){
+//         clbk(null,"login successful");
+//     }
+//     else{
+//         clbk("username or password is incorrect",null);
+//     }
+// }
+// loginHandler("rishu_5851","1235",login)
 
-function loginHandler(username,password,clbk){
-    if(username=="rishu_5851" && password=="12345"){
-        clbk(null,"login successful");
-    }
-    else{
-        clbk("username or password is incorrect",null);
-    }
-}
-loginHandler("rishu_5851","1235",login)
+//synchronization
+console.log ("one")
+console.log ("two")
+console.log ("three")
+
+
+//asynchronous
+setTimeout(()=>{console.log("two")},1000)
+console.log("three")
+
