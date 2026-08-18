@@ -12,7 +12,6 @@
 // }
 // console.log(sum(5,19));
 
-
 //arrow function
 // const sum=(a,b)=>{return a+b}
 // console.log(sum(10,5));
@@ -84,4 +83,7 @@ console.log ("three")
 //asynchronous
 setTimeout(()=>{console.log("two")},1000)
 console.log("three")
+
+
+//DOM
 
