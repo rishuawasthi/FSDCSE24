@@ -30,4 +30,4 @@ function ICardGallery() {
   )
 }
 
-export default ICardGallery
+export default ICardGallery ;

@@ -14,4 +14,4 @@ function ICard({data}) {
   )
 }
 
-export default ICard
+export default ICard ;
